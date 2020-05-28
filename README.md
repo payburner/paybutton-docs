@@ -5,27 +5,28 @@ To create pay buttons:
 - You first need to have a Payburner Wallet (click to <a href="https://chrome.google.com/webstore/detail/ghigcfhmoaokccllienfhdhdndkfhmop/publish-accepted?authuser=3&hl=en">install</a>)
 - In your Payburner Wallet, click on your profile icon, and then open `Pay Button Manager`.
 
-![Open the Pay Button Manager!](/resources/screenshots/open-paybutton-manager.png "Pay Button Manager")
+<img src="./resources/screenshots/open-paybutton-manager.png" width="200">
 
 You will then see the Manager
 
-![The Pay Button Manager!](/resources/screenshots/paybutton-manager.png "Pay Button Manager")
+ 
+<img src="./resources/screenshots/paybutton-manager.png" width="200">
 
 - Click on the `+ shopping cart ` icon and then enter the information for your pay button.
 
-![Create new Pay Button!](/resources/screenshots/create-new-paybutton.png "Create new Pay Button")
+<img src="./resources/screenshots/create-new-paybutton.png" width="200">
 
 Note that there are two types of paybuttons -- ones with a fixed price and ones without a fixed price.  Fixed price
 buttons could be used for purchasing a specific item, for example.  Non-fixed priced buttons could be used for a shopping 
 cart payment where the price is dynamic and calculated.
 
 - Once the pay button has been created, Click on the `more` icon and then select `Embed`.  You will receive instructions for installing the pay button.
-
-![Pay Button Options!](/resources/screenshots/paybutton-options.png "Pay Button Options")
+ 
+<img src="./resources/screenshots/paybutton-options.png" width="200">
 
 You will see specific instructions for embedding your paybutton:
-
-![Embed Paybutton!](/resources/screenshots/embed-paybutton.png "Embed Paybutton")
+ 
+<img src="/resources/screenshots/embed-paybutton.png" width="200">
 
 There are two key parts of embedding a paybutton in a simple HTML page. 
 
