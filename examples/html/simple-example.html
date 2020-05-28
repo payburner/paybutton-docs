@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Payburner Button Example</title>
+    <!-- import payburner.js -- the library that links the page to the payburner browser extension -->
+    <script src="https://www.payburner.com/payburner.js"></script>
+    <!-- import paybutton.js -- a web component -->
+    <script src='https://unpkg.com/@payburner/paybutton.js@0.0.5/dist/pay-button.js'></script>
+</head>
+<body>
+<div id="demo">
+    <h1>Please make a payment</h1>
+    <!-- add a paybutton to the page.  you can add as many of these as you want.  Note that you must
+         first create the paybutton using the Payburner browser extension.
+    -->
+    <pay-button buttonid="7b2d5583-a178-434d-8048-516f784f8f92" price=".00002"></pay-button>
+</div>
+</body>
+<footer>
+    <script>
+
+        /*
+         * Find the paybuttons on the page and add an event listener.  You will get called back when
+         * the payment has settled.
+         */
+        const payButtons = document.querySelectorAll('pay-button');
+        for (var idx = 0; idx < payButtons.length; idx++) {
+            payButtons[idx].addEventListener('settled', event => {
+                alert(JSON.stringify(event.detail, null, 2));
+            });
+        }
+    </script>
+</footer>
+</html>
