@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@payburner/paybutton.js": "0.0.5",
+    "@payburner/paybutton-js-react": "0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
