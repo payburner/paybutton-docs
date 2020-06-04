@@ -33,7 +33,7 @@ There are two key parts of embedding a paybutton in a simple HTML page.
 First you must import two scripts:
 
 - `<script src="https://www.payburner.com/payburner.js"></script>` in the head of your index.html to import payburner.       
-- `<script src='https://unpkg.com/@payburner/paybutton.js@0.0.5/dist/pay-button.js'></script>` in the head of your index.html to load the component
+- `<script src='https://unpkg.com/@payburner/paybutton.js@0.0.11/dist/pay-button.js'></script>` in the head of your index.html to load the component
 
 Note that the order is important -- first payburner.js, then paybutton.js.  
 
